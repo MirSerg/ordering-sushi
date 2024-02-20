@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #020303;
+}
+
+.header {
+  background: #020303;
+  padding: 30px 0;
+}
+
+.container, .select.container, .cookfood.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+  background: #020303;
+}
+
+/* 630 + 55 + 67 = 752*/
+.cookfood {
+  /* 240 + 752 = 992 */
+  /*height: 752px;*/
+  background: #020303;
+  /*margin-top: 240px;*/
+  padding: 120px 0 67px 0;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  /*margin-bottom: 10px;*/
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  width: 60px;
+}
+
+.menu {
+  margin-left: 282px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.menu ul li:first-child {
+  margin-left: 0;
+}
+
+.menu ul li:last-child {
+  margin-left: 24px;
+}
+
+.menu ul li a {
+  font-size: 16px;
+  color: rgb(253, 239, 213);
+  /*line-height: 1.2;*/
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+
+.menu ul li a:hover{
+  border-bottom: 2px solid #ffaf18;
+  color: #ffaf18;
+}
+
+
+.about {
+  padding: 133px 0 80px 0;
+}
+
+.about .container {
+  font-size: 0;
+  /*padding-bottom: 80px;*/
+  /*max-width: 563px;*/
+}
+
+.about-items {
+  display: inline-block;
+  vertical-align: bottom;
+  max-width: 564px;
+  /* отступ справа должен быть 27px */
+  margin-right: 22px;
+  font-size: 0;
+  padding-bottom: 45px;
+}
+
+.about-items h1 {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.222;
+  margin-bottom: 74px;
+}
+
+.about-items span {
+  color: #ffaf18;
+}
+
+.about-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 91px;
+}
+
+.about-item-image {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about-item-text {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-right: 98px;
+}
+
+.about-item-text-last {
+  margin-right: 0;
+}
+
+/*.container .about-items .about-item:nth-child(3) .about-item-text:nth-child(2) {*/
+/*!*.about-items .about-item:nth-child(3) .about-item-text:nth-child(2) {*!*/
+/*  margin-right: 0;*/
+/*}*/
+
+/*.about-select{*/
+/*  max-width: 100%;*/
+/*}*/
+
+.about-select-button {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 22px 22px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(255, 175, 24);
+  width: 224px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  /*margin-bottom: 0;*/
+}
+
+.about-select-button:hover {
+  box-shadow: 0 4px 15px 8px rgba(255, 175, 24, 0.46);
+}
+
+.about-image {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  /*margin-bottom: -100px;*/
+}
+
+.select {
+  background-color: #020303;
+  padding: 120px 0;
+}
+
+.select-header {
+  /*padding: 0 0 60px 0;*/
+  margin-bottom: 48px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  /*line-height: 1.571;*/
+  text-align: center;
+}
+
+.select-items-all{
+  margin-left: -12px;
+  margin-right: -12px;
+  font-size: 0;
+}
+
+.select-items {
+  display: inline-block;
+  vertical-align: middle;
+  /*border-width: 5px;*/
+  border-color: #FFF;
+  /*border-style: solid;*/
+  background-color: rgb(255, 255, 255);
+  width: 282px;
+  /*height: 354px;*/
+  margin: 12px 12px;
+  /*font-size: 0;*/
+  padding-bottom: 15px;
+}
+
+.select-items:hover {
+  box-shadow: 0 3px 13.8px 1.2px rgba(255, 255, 255, 0.53);
+}
+
+.select-items:first-child {
+  width: 272px;
+  /*height: 344px;*/
+  border-width: 5px;
+  border-color: rgb(237, 155, 0);
+  border-style: solid;
+  /*padding: 5px 0 30px 0;*/
+  padding-bottom: 10px;
+}
+
+.select-items:last-child {
+  width: 272px;
+  /*height: 344px;*/
+  border-width: 5px;
+  border-color: rgb(237, 155, 0);
+  border-style: solid;
+  padding-bottom: 10px;
+}
+
+.select-item-image {
+  padding: 10px 0 30px 0;
+}
+
+.select-items .select-item-image:first-child {
+  padding: 5px 0 30px 0;
+}
+
+.select-item-image img {
+  padding: 0 36px;
+}
+
+.select-item-image:nth-child(2) {
+  /*padding: 5px 36px;*/
+}
+
+.select-item-header {
+  font-size: 18px;
+  color: rgb(24, 26, 26);
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.select-item-text {
+  /*padding: 0 15px;*/
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  color: rgb(24, 26, 26);
+  line-height: 1.286;
+  text-align: center;
+  width: 244px;
+  height: 50px;
+  margin-bottom: 15px;
+  /*text-align: center;*/
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+  text-align: center;
+}
+
+.select-item-button {
+  background-color: rgb(255, 175, 24);
+  width: 242px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  padding: 15px 17px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.select-item-button:hover {
+  box-shadow: 0 0 20px rgb(187, 136, 7);
+}
+
+
+
+.cookfood-header {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.286;
+  text-align: left;
+  /*width: 367px;*/
+  /*height: 78px;*/
+  /*margin-top: 240px;*/
+  margin-bottom: 60px;
+}
+
+.cookfood-text {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+  width: 344px;
+  /*height: 160px;*/
+  margin-bottom: 100px;
+}
+
+.cookfood-text span{
+  display: inline-block;
+}
+
+.cookfood-items {
+  width: 384px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  margin-right: 48px;
+}
+
+.cookfood-about {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  width: 351px;
+  height: 59px;
+  margin-bottom: 40px;
+}
+
+
+.cookfood-about-images {
+  /*margin-bottom: 67px;*/
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.cookfood-about-images a{
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background: white;
+  border-radius: 50%;
+  vertical-align: bottom;
+  margin-right: 40px;
+  /*box-shadow: 0 3px 13.8px 1.2px rgba(255, 255, 255, 0.53);*/
+}
+
+.cookfood-about-images img {
+  padding: 13px 22px 0 8px;
+}
+
+.cookfood-image {
+  /*width: 768px;*/
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 0;
+}
+
+.cookfood-about-images a:hover {
+  box-shadow: 0 0px 13.8px 1.2px rgba(255, 255, 255, 0.53);
+}
+
+.cookfood-about-images a:active{
+  background-color: #ffaf18;
+}
+
+.cookfood-about-images a:visited{
+  background-color: #bebebe;
+}
+
+/*.cookfood-about-images-onigiri:visited{*/
+/*  background-color: #bebebe;*/
+/*}*/
+/*.cookfood-about-images-sushi:visited{*/
+/*  background-color: #bebebe;*/
+/*}*/
+/*.cookfood-about-images-tuna:visited{*/
+/*  background-color: #bebebe;*/
+/*}*/
+
+.footer {
+  background: #000;
+  padding: 30px 0;
+  /*display: inline-block;*/
+  vertical-align: middle;
+  /*max-width: 1200px;*/
+  margin: 0 auto;
+}
+
+.footer-rights {
+  font-size: 12px;
+  color: rgb(44, 44, 44);
+  line-height: 1.2;
+  margin-left: 390px;
+  display: inline-block;
+  vertical-align: middle;
+}
